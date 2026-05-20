@@ -23,13 +23,13 @@ const Projects = () => {
       github: 'https://github.com/poojasingh1231/my-portfolio'
     },
     {
-      title: 'BT Consumer Electronics',
-      tags: ['ReactJS', 'Redux', 'Lazy Loading'],
-      problem: 'A large-scale e-commerce platform suffered from slow load times and state management bottlenecks during the critical checkout flow.',
-      solution: 'Implemented lazy loading and optimized Redux state management, delivering a seamless checkout experience and measurable performance improvements.',
-      metrics: { lighthouse: 95, loadTime: '1.1s' },
+      title: 'Weekday Date Range Picker',
+      tags: ['React', 'Date Validation', 'Component Library', 'CSS'],
+      problem: 'Enterprise applications often require complex date-range selections that strictly exclude weekends, which is tedious and error-prone to build from scratch.',
+      solution: 'Developed a highly customizable, lightweight React component tailored specifically for weekday date range selection, featuring robust validation and an intuitive UI.',
+      metrics: { lighthouse: 100, loadTime: '0.1s' },
       demo: '#',
-      github: '#'
+      github: 'https://github.com/poojasingh1231/weekday-date-range-picker'
     }
   ];
 
