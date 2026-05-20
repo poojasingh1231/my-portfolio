@@ -14,13 +14,13 @@ const Projects = () => {
       github: 'https://github.com/poojasingh1231/resume-reviewer'
     },
     {
-      title: 'Happiest Health — e-Magazine',
-      tags: ['Next.js', 'TypeScript', 'OAuth', 'Storybook'],
-      problem: 'Healthcare professionals needed a secure, engaging, and highly responsive digital magazine platform with advanced content filtering.',
-      solution: 'Developed a Next.js frontend with secure OAuth/JWT authentication and interactive UI components, driving a 60% increase in user engagement.',
-      metrics: { lighthouse: 98, loadTime: '0.9s' },
+      title: 'Personal Developer Portfolio',
+      tags: ['React', 'Vite', 'Framer Motion', 'CSS'],
+      problem: 'Needed a high-performance, visually striking personal portfolio to showcase engineering skills without relying on heavy frontend frameworks.',
+      solution: 'Built a sleek, modular React application using Vite and vanilla CSS modules. Implemented fluid micro-animations with Framer Motion to create a premium user experience.',
+      metrics: { lighthouse: 100, loadTime: '0.4s' },
       demo: '#',
-      github: '#'
+      github: 'https://github.com/poojasingh1231/my-portfolio'
     },
     {
       title: 'BT Consumer Electronics',
