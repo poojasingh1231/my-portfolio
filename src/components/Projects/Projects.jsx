@@ -16,7 +16,7 @@ const Projects = () => {
     {
       title: 'Personal Developer Portfolio',
       tags: ['React', 'Vite', 'Framer Motion', 'CSS'],
-      problem: 'Needed a high-performance, visually striking personal portfolio to showcase engineering skills without relying on heavy frontend frameworks.',
+      problem: 'Required a digital presence that acts as living proof of frontend expertise—balancing complex micro-animations with a flawless Lighthouse performance score.',
       solution: 'Built a sleek, modular React application using Vite and vanilla CSS modules. Implemented fluid micro-animations with Framer Motion to create a premium user experience.',
       metrics: { lighthouse: 100, loadTime: '0.4s' },
       demo: '#',
