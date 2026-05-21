@@ -28,7 +28,7 @@ const Projects = () => {
       problem: 'Enterprise applications often require complex date-range selections that strictly exclude weekends, which is tedious and error-prone to build from scratch.',
       solution: 'Developed a highly customizable, lightweight React component tailored specifically for weekday date range selection, featuring robust validation and an intuitive UI.',
       metrics: { lighthouse: 100, loadTime: '0.1s' },
-      demo: '#',
+      demo: 'https://weekday-date-range-picker-5yuna66nd-pooja-s-workspace.vercel.app/',
       github: 'https://github.com/poojasingh1231/weekday-date-range-picker'
     },
     {
