@@ -35,13 +35,23 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
         >
-          <p className={styles.bio}>
-            I am a Senior Frontend Engineer with a proven track record of building 
-            <span className="text-gradient"> scalable, high-performance</span> web applications. 
-            With 4+ years of experience across healthcare, CMMS, and e-commerce, I specialize in 
-            reducing API calls, boosting user engagement, and developing modular component architectures. 
-            My expertise includes React.js, Next.js, and integrating Agentic AI tools into everyday workflows.
-          </p>
+          <div className={styles.bioWrapper} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
+            <p className={styles.bio} style={{ marginBottom: 0 }}>
+              I am a Frontend Developer with 4.8 years of experience building scalable, responsive, and user focused web applications using React.js, Next.js, JavaScript, TypeScript, Redux, HTML, and CSS.
+            </p>
+            <p className={styles.bio} style={{ marginBottom: 0 }}>
+              I enjoy turning complex business requirements into clean, intuitive, and high performing user interfaces. My work experience includes building enterprise level applications in domains like facility management, CMMS, e-commerce, and healthcare, where I have worked on dynamic forms, data intensive grids, reusable components, performance optimization, API integrations, and modern frontend architecture.
+            </p>
+            <p className={styles.bio} style={{ marginBottom: 0 }}>
+              I have hands on experience working with large React codebases, refactoring legacy code, improving UI performance, writing maintainable components, and collaborating closely with backend teams, product managers, designers, and QA teams to deliver production ready features.
+            </p>
+            <p className={styles.bio} style={{ marginBottom: 0 }}>
+              What makes me different is that I do not just focus on writing code that works. I focus on writing code that is clean, scalable, easy to understand, and useful for real users. I care about good UI, smooth user experience, code quality, and continuous learning.
+            </p>
+            <p className={styles.bio} style={{ marginBottom: 0 }}>
+              Currently, I am focused on growing as a strong frontend engineer by building better products, improving system design knowledge, and exploring how AI tools can make development faster and smarter.
+            </p>
+          </div>
           
           <div className={styles.statsGrid}>
             {stats.map((stat, idx) => (
