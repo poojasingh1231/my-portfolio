@@ -37,7 +37,7 @@ const Projects = () => {
       problem: 'Building a cross-platform habit tracking application that seamlessly integrates web features with native mobile capabilities like local notifications and activity heatmaps.',
       solution: 'Developed a responsive web app using Next.js and Firebase, and compiled it to a native mobile app using Capacitor. Implemented real-time dashboards and custom notification workflows.',
       metrics: { lighthouse: 98, loadTime: '0.6s' },
-      demo: '#',
+      demo: 'https://habit-tracker-ofu8rykt6-pooja-s-workspace.vercel.app',
       github: 'https://github.com/poojasingh1231/habit-tracker'
     }
   ];
