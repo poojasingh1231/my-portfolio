@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <section id="home" className={styles.heroSection}>
-      <motion.div 
+      <motion.div
         className={styles.content}
         variants={containerVariants}
         initial="hidden"
@@ -30,16 +30,16 @@ const Hero = () => {
           <span className={styles.pulseIndicator}></span>
           Available for new opportunities
         </motion.div>
-        
+
         <motion.h1 variants={itemVariants} className={styles.title}>
           Hi, I'm Pooja Singh <br />
-          <span className="text-gradient">Senior Frontend Engineer</span><br/>
+          <span className="text-gradient">Senior Frontend Engineer</span><br />
         </motion.h1>
-        
+
         <motion.p variants={itemVariants} className={styles.subtitle}>
-          4+ years of experience building scalable React.js and Next.js applications across healthcare, CMMS, and e-commerce platforms. Obsessed with performance optimization, reusable UI libraries, and AI-driven tools.
+          4+ years of experience building scalable React.js and Next.js applications across CMMS, healthcare, and e-commerce platforms. Focused on performance optimization, reusable UI architecture, and AI-driven developer tools.
         </motion.p>
-        
+
         <motion.div variants={itemVariants} className={styles.ctaGroup}>
           <a href="#projects" className={`${styles.btn} ${styles.btnPrimary}`}>
             View Work <ArrowRight size={18} />
@@ -52,8 +52,8 @@ const Hero = () => {
           </a>
         </motion.div>
       </motion.div>
-      
-      <motion.div 
+
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 1 }}
