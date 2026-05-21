@@ -37,19 +37,13 @@ const About = () => {
         >
           <div className={styles.bioWrapper} style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '2rem' }}>
             <p className={styles.bio} style={{ marginBottom: 0 }}>
-              I am a Frontend Developer with 4.8 years of experience building scalable, responsive, and user focused web applications using React.js, Next.js, JavaScript, TypeScript, Redux, HTML, and CSS.
+              I’m a Senior Frontend Engineer with 4.8 years of experience building modern, scalable, and user-focused web applications using React.js, Next.js, JavaScript, TypeScript, Redux, HTML, CSS, and other modern frontend technologies.
             </p>
             <p className={styles.bio} style={{ marginBottom: 0 }}>
-              I enjoy turning complex business requirements into clean, intuitive, and high performing user interfaces. My work experience includes building enterprise level applications in domains like facility management, CMMS, e-commerce, and healthcare, where I have worked on dynamic forms, data intensive grids, reusable components, performance optimization, API integrations, and modern frontend architecture.
+              I have worked on complex enterprise applications across CMMS, facility management, e-commerce, and healthcare domains, where I built reusable components, dynamic forms, data-heavy grids, responsive layouts, API-driven interfaces, and performance-optimized frontend features.
             </p>
             <p className={styles.bio} style={{ marginBottom: 0 }}>
-              I have hands on experience working with large React codebases, refactoring legacy code, improving UI performance, writing maintainable components, and collaborating closely with backend teams, product managers, designers, and QA teams to deliver production ready features.
-            </p>
-            <p className={styles.bio} style={{ marginBottom: 0 }}>
-              What makes me different is that I do not just focus on writing code that works. I focus on writing code that is clean, scalable, easy to understand, and useful for real users. I care about good UI, smooth user experience, code quality, and continuous learning.
-            </p>
-            <p className={styles.bio} style={{ marginBottom: 0 }}>
-              Currently, I am focused on growing as a strong frontend engineer by building better products, improving system design knowledge, and exploring how AI tools can make development faster and smarter.
+              I enjoy solving real product problems and turning complex requirements into clean, intuitive, and reliable user experiences. I focus on writing code that is not just functional, but also maintainable, scalable, and easy for teams to extend.
             </p>
           </div>
           
