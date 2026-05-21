@@ -10,7 +10,7 @@ const Projects = () => {
       problem: 'Needed a performant, automated way to extract text from PDFs client-side and provide instant ATS scoring and actionable career feedback.',
       solution: 'Built a production-ready application using Next.js and Vercel AI SDK to stream real-time AI analysis. Implemented client-side PDF extraction to optimize bandwidth.',
       metrics: { lighthouse: 98, loadTime: '0.8s' },
-      demo: '#',
+      demo: 'https://resume-reviewer-blue.vercel.app/',
       github: 'https://github.com/poojasingh1231/resume-reviewer'
     },
     {
