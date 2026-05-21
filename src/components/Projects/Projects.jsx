@@ -32,7 +32,7 @@ const Projects = () => {
       github: 'https://github.com/poojasingh1231/weekday-date-range-picker'
     },
     {
-      title: 'Resol Habit Tracker',
+      title: 'Habit Tracker',
       tags: ['Next.js', 'Firebase', 'Capacitor', 'Mobile'],
       problem: 'Building a cross-platform habit tracking application that seamlessly integrates web features with native mobile capabilities like local notifications and activity heatmaps.',
       solution: 'Developed a responsive web app using Next.js and Firebase, and compiled it to a native mobile app using Capacitor. Implemented real-time dashboards and custom notification workflows.',
