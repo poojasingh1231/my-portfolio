@@ -44,7 +44,7 @@ const Hero = () => {
           <a href="#projects" className={`${styles.btn} ${styles.btnPrimary}`}>
             View Work <ArrowRight size={18} />
           </a>
-          <a href="/resume.pdf" className={`${styles.btn} ${styles.btnSecondary}`}>
+          <a href={`${import.meta.env.BASE_URL}Pooja_Singh_CV.pdf`} download="Pooja_Singh_CV.pdf" target="_blank" rel="noopener noreferrer" className={`${styles.btn} ${styles.btnSecondary}`}>
             <Download size={18} /> Download CV
           </a>
           <a href="#contact" className={`${styles.btn} ${styles.btnSecondary}`}>
