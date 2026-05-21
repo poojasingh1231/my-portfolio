@@ -7,8 +7,7 @@
 A sleek, performance-obsessed personal developer portfolio built with React and Vite. It features a custom design system with vanilla CSS modules, fluid micro-animations powered by Framer Motion, and showcases my frontend engineering experience, featured projects, and technical writing.
 
 ## 🚀 Live Demo
-*(Add your Vercel or Netlify link here once deployed)*
-**[View Live Portfolio](https://your-portfolio-link.com)**
+**[View Live Portfolio](https://poojasingh1231.github.io/my-portfolio/)**
 
 ## ✨ Features
 
